@@ -1,3 +1,3 @@
 ---
-permalink: /doom_crossing/index.html
+permalink: /index.html
 ---
