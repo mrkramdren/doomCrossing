@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/background.jpg");
+}
+
+.logo {
+    width: 10%;
+    height: 15%;
+    left: 45%;
+    position: fixed;
+}
+
+#gamearea {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -375px;
+    margin-top: -250px;
+    width: 750px;
+    height: 500px;
+    border: solid gray 2px;
+    background: white;
+}
+
+.floor {
+    background: transparent;
+    position: absolute;
+    z-index: 0;
+}
+
+.blocker {
+    background: hotpink;
+    position: absolute;
+    z-index: 4;
+    border: solid #666 1px;
+}
+
+.selected {
+    border: solid;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    border: solid;
+    margin: 15px;
+    background-color: white;
+}
+
+#menu {
+    height: auto;
+    width: auto;
+    left: 46%;
+    top: 20%;
+    position: absolute;
+}
+
+#difficulty {
+    height: auto;
+    width: auto;
+    left: 46%;
+    top: 20%;
+    position: absolute;
+}
+
+#hud {
+    position: fixed;
+    top: 10%;
+    left: 25%;
+    width: 200px;
+    height: 30px;
+    color: white;
+}
+
+#score {
+    height: auto;
+    width: auto;
+}
+
+#scoreboard {
+    height: 50%;
+    width: 50%;
+    left: 25%;
+    position: relative;
+    color: white;
+    text-align: center;
+    background-color: red;
+    margin-top: 5%;
+}
+
+.playerName {
+    position: absolute;
+    top: 25%;
+    left:43%;
+}
+
+.backToMenuButton{
+    left: 25%;
+    position: absolute;
+    top: 10%;
+}
